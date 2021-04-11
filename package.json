@@ -2,6 +2,10 @@
     "name": "ficusjs-ava-test",
     "version": "1.0.0",
     "description": "Example unit testing web components with ava and jsdom",
+    "engines": {
+        "node": ">=14"
+    },
+    "engineStrict": true,
     "scripts": {
         "test": "ava"
     },
