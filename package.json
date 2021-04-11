@@ -1,0 +1,17 @@
+{
+    "name": "ficusjs-ava-test",
+    "version": "1.0.0",
+    "description": "Example unit testing web components with ava and jsdom",
+    "scripts": {
+        "test": "ava"
+    },
+    "author": "Matt Levy",
+    "license": "MIT",
+    "devDependencies": {
+        "@ficusjs/renderers": "^3.1.0",
+        "ava": "^3.15.0",
+        "ficusjs": "^3.2.3",
+        "jsdom": "^16.5.2",
+        "standard": "^16.0.3"
+    }
+}
