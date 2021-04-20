@@ -1,6 +1,6 @@
 {
     "name": "ficusjs-ava-test",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "description": "Example unit testing web components with ava and jsdom",
     "engines": {
         "node": ">=14"
@@ -13,9 +13,9 @@
     "license": "MIT",
     "devDependencies": {
         "@ficusjs/renderers": "^3.1.0",
+        "@ficusjs/testing": "1.0.0-alpha.2",
         "ava": "^3.15.0",
         "ficusjs": "^3.2.3",
-        "jsdom": "^16.5.2",
         "standard": "^16.0.3"
     }
 }

@@ -1,6 +1,6 @@
 # ficusjs-ava-test
 
-Example unit testing web components with ava and jsdom
+Example unit testing web components with ava, jsdom and ficusjs
 
 ## Getting started
 
