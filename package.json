@@ -7,15 +7,17 @@
     },
     "engineStrict": true,
     "scripts": {
-        "test": "ava"
+        "test": "ava",
+        "test:coverage": "c8 --all --include=src/**/*.mjs --reporter=lcov --reporter=text-summary ava test/**/*.spec.mjs --verbose"
     },
     "author": "Matt Levy",
     "license": "MIT",
     "devDependencies": {
-        "@ficusjs/renderers": "^3.1.0",
-        "@ficusjs/testing": "1.0.0-alpha.2",
-        "ava": "^3.15.0",
-        "ficusjs": "^3.2.3",
-        "standard": "^16.0.3"
+        "@ficusjs/renderers": "3.1.0",
+        "@ficusjs/testing": "1.0.0-alpha.4",
+        "ava": "3.15.0",
+        "c8": "7.7.1",
+        "ficusjs": "3.2.3",
+        "standard": "16.0.3"
     }
 }
